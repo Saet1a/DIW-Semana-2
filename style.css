@@ -1,0 +1,161 @@
+body{
+  background: #d7ebf4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow:0 35px 55px #4334 ; 
+}
+.container .conteudoesquerda{
+  position: relative;
+  padding:40px;
+  background: #8d8181;
+;
+;
+}
+.textoperfil{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom:1px solid #8954;
+}
+.textoperfil .img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.textoperfil .img{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.textoperfil .img img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textoperfil h2{
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.4em;
+
+}
+.textoperfil h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.container .conteudodireita{
+  position: relative;
+  padding:40px;
+  background: #fff;
+}
+
+.contato{
+  padding-top:40px;
+}
+
+.titulo{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  
+}
+
+.contato ul{
+  position: relative;
+}
+
+.contato ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contato ul li span {
+font-weight: 300;
+  color: #fff;
+}
+
+.habilidades{
+  padding-top:40px;
+}
+
+.habilidades ul{
+ position: relative;
+}
+
+.habilidades ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.habilidades ul li span{
+  font-weight: 300;
+  color: #fff;
+}
+
+.linguas{
+  padding-top:40px;
+}
+
+.linguas ul{
+   position: relative;
+}
+
+.linguas ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.linguas ul li span{
+  font-weight: 300;
+  color: #fff;
+}
+
+.sobre-eu{
+  margin-bottom: 50px;
+}
+
+.sobre-eu:last-child{
+  margin-bottom: 0;
+}
+
+.titulo2{
+  color: #003147;
+  letter-spacing: 1px;
+  margin-bottom:10px;
+  text-transform: uppercase;
+}
+
+p{
+  color: #333;
+}
